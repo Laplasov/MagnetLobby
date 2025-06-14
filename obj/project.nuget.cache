@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "86DgqL2THbA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Yandere312\\source\\repos\\MagnetLobby\\MagnetLobby\\MagnetLobby.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yandere312\\.nuget\\packages\\mono.nat\\3.0.0\\mono.nat.3.0.0.nupkg.sha512",
+    "C:\\Users\\Yandere312\\.nuget\\packages\\monotorrent\\3.0.2\\monotorrent.3.0.2.nupkg.sha512",
+    "C:\\Users\\Yandere312\\.nuget\\packages\\reusabletasks\\4.0.0\\reusabletasks.4.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,378 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Mono.Nat/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Mono.Nat.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MonoTorrent/3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Nat": "3.0.0",
+          "ReusableTasks": "4.0.0"
+        },
+        "compile": {
+          "lib/net6.0/MonoTorrent.BEncoding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Client.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Connections.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Dht.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Factories.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Messages.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PiecePicking.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PieceWriter.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PortForwarding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Trackers.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.dll": {
+            "related": ".BEncoding.xml;.Client.xml;.Connections.xml;.Dht.xml;.Factories.xml;.Messages.xml;.PiecePicking.xml;.PieceWriter.xml;.PortForwarding.xml;.Trackers.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MonoTorrent.BEncoding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Client.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Connections.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Dht.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Factories.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Messages.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PiecePicking.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PieceWriter.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.PortForwarding.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.Trackers.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/MonoTorrent.dll": {
+            "related": ".BEncoding.xml;.Client.xml;.Connections.xml;.Dht.xml;.Factories.xml;.Messages.xml;.PiecePicking.xml;.PieceWriter.xml;.PortForwarding.xml;.Trackers.xml;.xml"
+          }
+        }
+      },
+      "ReusableTasks/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/ReusableTasks.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/ReusableTasks.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mono.Nat/3.0.0": {
+      "sha512": "LgRC8/8plJfvr1nCPmyHNIwP4fs346doMA/UVDZvFN0RfGJdyD2uS7Dl1AydxjVLrIvad8ghozI0vYFWcfPeYQ==",
+      "type": "package",
+      "path": "mono.nat/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/netstandard2.0/Mono.Nat.dll",
+        "lib/netstandard2.0/Mono.Nat.xml",
+        "lib/netstandard2.1/Mono.Nat.dll",
+        "lib/netstandard2.1/Mono.Nat.xml",
+        "mono.nat.3.0.0.nupkg.sha512",
+        "mono.nat.nuspec"
+      ]
+    },
+    "MonoTorrent/3.0.2": {
+      "sha512": "kWy0mLj2MKX9uUGe3lnNYfyQhthjUK4IAMNJO8llXP9yB3ZYfGaAy9ag20wMcjTz2YfhKOW/uZ5FR//BYZGeYA==",
+      "type": "package",
+      "path": "monotorrent/3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net472/Mono.Nat.dll",
+        "lib/net472/MonoTorrent.BEncoding.dll",
+        "lib/net472/MonoTorrent.BEncoding.xml",
+        "lib/net472/MonoTorrent.Client.dll",
+        "lib/net472/MonoTorrent.Client.xml",
+        "lib/net472/MonoTorrent.Connections.dll",
+        "lib/net472/MonoTorrent.Connections.xml",
+        "lib/net472/MonoTorrent.Dht.dll",
+        "lib/net472/MonoTorrent.Dht.xml",
+        "lib/net472/MonoTorrent.Factories.dll",
+        "lib/net472/MonoTorrent.Factories.xml",
+        "lib/net472/MonoTorrent.Messages.dll",
+        "lib/net472/MonoTorrent.Messages.xml",
+        "lib/net472/MonoTorrent.PiecePicking.dll",
+        "lib/net472/MonoTorrent.PiecePicking.xml",
+        "lib/net472/MonoTorrent.PieceWriter.dll",
+        "lib/net472/MonoTorrent.PieceWriter.xml",
+        "lib/net472/MonoTorrent.PortForwarding.dll",
+        "lib/net472/MonoTorrent.PortForwarding.xml",
+        "lib/net472/MonoTorrent.Trackers.dll",
+        "lib/net472/MonoTorrent.Trackers.xml",
+        "lib/net472/MonoTorrent.dll",
+        "lib/net472/MonoTorrent.xml",
+        "lib/net5.0/MonoTorrent.BEncoding.dll",
+        "lib/net5.0/MonoTorrent.BEncoding.xml",
+        "lib/net5.0/MonoTorrent.Client.dll",
+        "lib/net5.0/MonoTorrent.Client.xml",
+        "lib/net5.0/MonoTorrent.Connections.dll",
+        "lib/net5.0/MonoTorrent.Connections.xml",
+        "lib/net5.0/MonoTorrent.Dht.dll",
+        "lib/net5.0/MonoTorrent.Dht.xml",
+        "lib/net5.0/MonoTorrent.Factories.dll",
+        "lib/net5.0/MonoTorrent.Factories.xml",
+        "lib/net5.0/MonoTorrent.Messages.dll",
+        "lib/net5.0/MonoTorrent.Messages.xml",
+        "lib/net5.0/MonoTorrent.PiecePicking.dll",
+        "lib/net5.0/MonoTorrent.PiecePicking.xml",
+        "lib/net5.0/MonoTorrent.PieceWriter.dll",
+        "lib/net5.0/MonoTorrent.PieceWriter.xml",
+        "lib/net5.0/MonoTorrent.PortForwarding.dll",
+        "lib/net5.0/MonoTorrent.PortForwarding.xml",
+        "lib/net5.0/MonoTorrent.Trackers.dll",
+        "lib/net5.0/MonoTorrent.Trackers.xml",
+        "lib/net5.0/MonoTorrent.dll",
+        "lib/net5.0/MonoTorrent.xml",
+        "lib/net6.0/MonoTorrent.BEncoding.dll",
+        "lib/net6.0/MonoTorrent.BEncoding.xml",
+        "lib/net6.0/MonoTorrent.Client.dll",
+        "lib/net6.0/MonoTorrent.Client.xml",
+        "lib/net6.0/MonoTorrent.Connections.dll",
+        "lib/net6.0/MonoTorrent.Connections.xml",
+        "lib/net6.0/MonoTorrent.Dht.dll",
+        "lib/net6.0/MonoTorrent.Dht.xml",
+        "lib/net6.0/MonoTorrent.Factories.dll",
+        "lib/net6.0/MonoTorrent.Factories.xml",
+        "lib/net6.0/MonoTorrent.Messages.dll",
+        "lib/net6.0/MonoTorrent.Messages.xml",
+        "lib/net6.0/MonoTorrent.PiecePicking.dll",
+        "lib/net6.0/MonoTorrent.PiecePicking.xml",
+        "lib/net6.0/MonoTorrent.PieceWriter.dll",
+        "lib/net6.0/MonoTorrent.PieceWriter.xml",
+        "lib/net6.0/MonoTorrent.PortForwarding.dll",
+        "lib/net6.0/MonoTorrent.PortForwarding.xml",
+        "lib/net6.0/MonoTorrent.Trackers.dll",
+        "lib/net6.0/MonoTorrent.Trackers.xml",
+        "lib/net6.0/MonoTorrent.dll",
+        "lib/net6.0/MonoTorrent.xml",
+        "lib/netcoreapp3.0/MonoTorrent.BEncoding.dll",
+        "lib/netcoreapp3.0/MonoTorrent.BEncoding.xml",
+        "lib/netcoreapp3.0/MonoTorrent.Client.dll",
+        "lib/netcoreapp3.0/MonoTorrent.Client.xml",
+        "lib/netcoreapp3.0/MonoTorrent.Connections.dll",
+        "lib/netcoreapp3.0/MonoTorrent.Connections.xml",
+        "lib/netcoreapp3.0/MonoTorrent.Dht.dll",
+        "lib/netcoreapp3.0/MonoTorrent.Dht.xml",
+        "lib/netcoreapp3.0/MonoTorrent.Factories.dll",
+        "lib/netcoreapp3.0/MonoTorrent.Factories.xml",
+        "lib/netcoreapp3.0/MonoTorrent.Messages.dll",
+        "lib/netcoreapp3.0/MonoTorrent.Messages.xml",
+        "lib/netcoreapp3.0/MonoTorrent.PiecePicking.dll",
+        "lib/netcoreapp3.0/MonoTorrent.PiecePicking.xml",
+        "lib/netcoreapp3.0/MonoTorrent.PieceWriter.dll",
+        "lib/netcoreapp3.0/MonoTorrent.PieceWriter.xml",
+        "lib/netcoreapp3.0/MonoTorrent.PortForwarding.dll",
+        "lib/netcoreapp3.0/MonoTorrent.PortForwarding.xml",
+        "lib/netcoreapp3.0/MonoTorrent.Trackers.dll",
+        "lib/netcoreapp3.0/MonoTorrent.Trackers.xml",
+        "lib/netcoreapp3.0/MonoTorrent.dll",
+        "lib/netcoreapp3.0/MonoTorrent.xml",
+        "lib/netstandard2.0/MonoTorrent.BEncoding.dll",
+        "lib/netstandard2.0/MonoTorrent.BEncoding.xml",
+        "lib/netstandard2.0/MonoTorrent.Client.dll",
+        "lib/netstandard2.0/MonoTorrent.Client.xml",
+        "lib/netstandard2.0/MonoTorrent.Connections.dll",
+        "lib/netstandard2.0/MonoTorrent.Connections.xml",
+        "lib/netstandard2.0/MonoTorrent.Dht.dll",
+        "lib/netstandard2.0/MonoTorrent.Dht.xml",
+        "lib/netstandard2.0/MonoTorrent.Factories.dll",
+        "lib/netstandard2.0/MonoTorrent.Factories.xml",
+        "lib/netstandard2.0/MonoTorrent.Messages.dll",
+        "lib/netstandard2.0/MonoTorrent.Messages.xml",
+        "lib/netstandard2.0/MonoTorrent.PiecePicking.dll",
+        "lib/netstandard2.0/MonoTorrent.PiecePicking.xml",
+        "lib/netstandard2.0/MonoTorrent.PieceWriter.dll",
+        "lib/netstandard2.0/MonoTorrent.PieceWriter.xml",
+        "lib/netstandard2.0/MonoTorrent.PortForwarding.dll",
+        "lib/netstandard2.0/MonoTorrent.PortForwarding.xml",
+        "lib/netstandard2.0/MonoTorrent.Trackers.dll",
+        "lib/netstandard2.0/MonoTorrent.Trackers.xml",
+        "lib/netstandard2.0/MonoTorrent.dll",
+        "lib/netstandard2.0/MonoTorrent.xml",
+        "lib/netstandard2.1/MonoTorrent.BEncoding.dll",
+        "lib/netstandard2.1/MonoTorrent.BEncoding.xml",
+        "lib/netstandard2.1/MonoTorrent.Client.dll",
+        "lib/netstandard2.1/MonoTorrent.Client.xml",
+        "lib/netstandard2.1/MonoTorrent.Connections.dll",
+        "lib/netstandard2.1/MonoTorrent.Connections.xml",
+        "lib/netstandard2.1/MonoTorrent.Dht.dll",
+        "lib/netstandard2.1/MonoTorrent.Dht.xml",
+        "lib/netstandard2.1/MonoTorrent.Factories.dll",
+        "lib/netstandard2.1/MonoTorrent.Factories.xml",
+        "lib/netstandard2.1/MonoTorrent.Messages.dll",
+        "lib/netstandard2.1/MonoTorrent.Messages.xml",
+        "lib/netstandard2.1/MonoTorrent.PiecePicking.dll",
+        "lib/netstandard2.1/MonoTorrent.PiecePicking.xml",
+        "lib/netstandard2.1/MonoTorrent.PieceWriter.dll",
+        "lib/netstandard2.1/MonoTorrent.PieceWriter.xml",
+        "lib/netstandard2.1/MonoTorrent.PortForwarding.dll",
+        "lib/netstandard2.1/MonoTorrent.PortForwarding.xml",
+        "lib/netstandard2.1/MonoTorrent.Trackers.dll",
+        "lib/netstandard2.1/MonoTorrent.Trackers.xml",
+        "lib/netstandard2.1/MonoTorrent.dll",
+        "lib/netstandard2.1/MonoTorrent.xml",
+        "monotorrent.3.0.2.nupkg.sha512",
+        "monotorrent.nuspec"
+      ]
+    },
+    "ReusableTasks/4.0.0": {
+      "sha512": "6EKzscjq+Q+uxD0N5GWUBO2N34cuDiJ08ZxRs1lqS0Hwvnjp6AgimUIX/8dqIxRZbPOG4gcikTMo+PM4D9CfaQ==",
+      "type": "package",
+      "path": "reusabletasks/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "build/AsyncVoidMethodBuilder.cs",
+        "build/ReusableTasks.targets",
+        "lib/net5.0/ReusableTasks.dll",
+        "lib/net5.0/ReusableTasks.xml",
+        "lib/netcoreapp3.0/ReusableTasks.dll",
+        "lib/netcoreapp3.0/ReusableTasks.xml",
+        "lib/netstandard2.0/ReusableTasks.dll",
+        "lib/netstandard2.0/ReusableTasks.xml",
+        "lib/netstandard2.1/ReusableTasks.dll",
+        "lib/netstandard2.1/ReusableTasks.xml",
+        "reusabletasks.4.0.0.nupkg.sha512",
+        "reusabletasks.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "MonoTorrent >= 3.0.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Yandere312\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Yandere312\\source\\repos\\MagnetLobby\\MagnetLobby\\MagnetLobby.csproj",
+      "projectName": "MagnetLobby",
+      "projectPath": "C:\\Users\\Yandere312\\source\\repos\\MagnetLobby\\MagnetLobby\\MagnetLobby.csproj",
+      "packagesPath": "C:\\Users\\Yandere312\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Yandere312\\source\\repos\\MagnetLobby\\MagnetLobby\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Yandere312\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "MonoTorrent": {
+            "target": "Package",
+            "version": "[3.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
